@@ -2,11 +2,34 @@
 
 
 
-#bodyRow1 {
+#bodyCoverImage {
     background-image: url("images/backgroundImage.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: 100% 100%;
-    background-color: blue;
+    min-height: 40em;
+    /* background-attachment: fixed; */
+    /* background-color: blue; */   
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+#KappaMooImage {
+    width: 450px;
+    /* height: 500px; */
+    padding-left: 5em;
     
+    
+}
+#CoverTextHeader {
+    padding-top: 5em;
+    color: #FD853D;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#CoverTextDesc {
+    padding-left: .75em;
+    color: white;
+    font-size: 20px;
+    font-weight: 350;
 }
