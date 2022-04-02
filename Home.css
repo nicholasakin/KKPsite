@@ -1,7 +1,7 @@
 /* Home.html Body */
 
 
-
+/* Cover Image Section */
 #bodyCoverImage {
     background-image: url("images/backgroundImage.jpg");
     background-repeat: no-repeat;
@@ -12,7 +12,6 @@
     padding-top: 5em;
     padding-bottom: 5em;
 }
-
 #KappaMooImage {
     width: 450px;
     /* height: 500px; */
@@ -26,10 +25,59 @@
     font-size: 50px;
     font-weight: 500;
 }
-
 #CoverTextDesc {
     padding-left: .75em;
     color: white;
+    font-size: 20px;
+    font-weight: 350;
+}
+
+
+/* About Us and Purpose */
+/*row*/
+#aboutnPurpose { 
+    background-color: rgb(46, 33, 121);
+    min-height: 20em;
+} 
+
+/* Col */
+#aboutUsCol {
+    /* border: 1px solid white; */
+    margin-left: 25em;
+    margin-right: 2em; 
+}
+#purposeCol {
+    /* border: 1px solid white; */
+    margin-left: 2em;
+    margin-right: 25em;
+
+}
+
+#divideXCol {
+    /* border: 1px solid white; */
+    text-align: center;
+    padding-top: 8em;
+    color: white;
+    font-weight: 10;
+    margin: 0;
+    padding: -50em;
+    width: 10%;
+}
+
+#aboutUs, #purpose{
+    text-align: center;
+    color: white;
+    margin-top: 1em;
+    border-bottom: 2px solid white;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-bottom: 10px;
+}
+#apDesc {
+    color: white;
+    /* border: 1px solid black; */
+    margin-left: 4em;
+    margin-right: 4em;
     font-size: 20px;
     font-weight: 350;
 }
