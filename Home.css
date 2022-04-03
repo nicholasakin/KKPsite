@@ -6,28 +6,40 @@
     background-image: url("images/backgroundImage.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    min-height: 40em;
-    /* background-attachment: fixed; */
-    /* background-color: blue; */   
+    min-height: 40em; 
     padding-top: 5em;
     padding-bottom: 5em;
+    
+}
+#imageCol {
+    justify-content: right;
+    max-width: 400px;
+    min-width: 400px;
+    overflow: hidden;
+    
+
+}
+#textCol {
+    justify-content: left;
+    max-width: 400px;
+    min-width: 400px;
 }
 #KappaMooImage {
-    width: 450px;
-    /* height: 500px; */
-    padding-left: 5em;
+    padding-right: 2%;
 }
 #CoverTextHeader {
-    padding-top: 5em;
+    padding-top: 40%;
     color: #FD853D;
     font-size: 50px;
     font-weight: 500;
+    text-align: left;
 }
 #CoverTextDesc {
-    padding-left: .75em;
     color: white;
     font-size: 20px;
     font-weight: 350;
+    text-align: left;
+    padding-right: 40%;
 }
 
 
@@ -40,25 +52,23 @@
 
 /* Col */
 #aboutUsCol {
-    /* border: 1px solid white; */
-    margin-left: 25em;
-    margin-right: 2em; 
+    max-width: 500px;
+    min-width: 400px;
 }
 #purposeCol {
-    /* border: 1px solid white; */
-    margin-left: 2em;
-    margin-right: 25em;
+    max-width: 500px;
+    min-width: 400px;
 
 }
 #divideXCol {
-    /* border: 1px solid white; */
+    border: 1px solid white;
     text-align: center;
     padding-top: 8em;
     color: white;
     font-weight: 10;
     margin: 0;
-    padding: -50em;
     width: 10%;
+    max-width: 100px;
 }
 /* Text */
 #aboutUs, #purpose{
