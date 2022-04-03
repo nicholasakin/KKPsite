@@ -37,7 +37,6 @@
   font-weight: 650;
   margin: 10px;
   float: none;
-  
 }
 
 .navbar .navbar-collapse {
@@ -84,14 +83,8 @@
 }
 
 .container-fluid {
- 
+  background-color: #D9D9D9;
 }
-
-
-.body{ 
-  background-color: rgb(230, 224, 224);
-}
-
 
 
 
