@@ -80,6 +80,8 @@
 }
 
 
+
+
 /* Leadership */
 #leadershipRow {
     background-color: #D9D9D9;
@@ -92,10 +94,18 @@
     margin-bottom: .5em;
 }
 #leadershipColImg {
-    padding-left: 35em;
+    padding-left: 30%;
     padding-right: 0em;
     margin-right: 0em;
 }
+
+#leadershipColText {
+    padding-right: 30%;
+    padding-top: 5em;
+    /* max-height: 15em; */
+    overflow: none;
+}
+
 #imageSquare {
     background-color: white;
     height: 350px;
@@ -109,10 +119,7 @@
 
 }
 
-#leadershipColText {
-    padding-right: 35em;
-    padding-top: 5em;
-}
+
 #lcName {   
     color: #291569;
     font-size: 35px;
@@ -125,6 +132,8 @@
     padding-left: 1em;
     font-size: 20px;
     font-weight: 400;
+    min-width: 200px; 
+
 }
 
 
