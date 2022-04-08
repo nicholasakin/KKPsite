@@ -52,12 +52,10 @@
 
 /* Col */
 #aboutUsCol {
-    border: 1px solid red;
     max-width: 450px;
     min-width: 450px;
 }
 #purposeCol {
-    border: 1px solid red;
     max-width: 450px;
     min-width: 450px;
 }
@@ -105,12 +103,9 @@
     margin-bottom: .5em;
 }
 #leadershipColImg {
-    border: 1px solid red;
-    /* justify-content: center; */
     max-width: 400px;
     min-width: 400px;
     text-align: center;
-    /* justfiy-content: right; */
 }
 
 #leadershipColText {
