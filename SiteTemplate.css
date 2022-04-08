@@ -2,8 +2,30 @@
 /* Header */
 #headerContainer {
   background-color: rgb(46, 33, 121);
-  height: 150px
+  min-height: 150px;
+  color: white;
 }
+
+#headerImg {
+  border: 1px solid red;
+  padding-top: 1.25em; 
+}
+
+#headerText {
+  border: 1px solid red;
+  color:white; 
+  font-size:40px;
+  padding-top:1em; 
+  text-align: center;
+}
+
+#headerIcons {
+  border: 1px solid red;
+  padding-left: 2em; 
+  padding-top: 3.5em;
+}
+
+
 
 /* Social Media Icons */
 .fa {
