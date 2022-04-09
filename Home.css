@@ -33,6 +33,7 @@
     font-size: 50px;
     font-weight: 500;
     text-align: left;
+    /* max-height: 200px; */
 }
 #CoverTextDesc {
     color: white;
@@ -72,9 +73,9 @@
 /* Text */
 #aboutUs, #purpose{
     text-align: center;
-    color: white;
+    color: #FD853D;
     margin-top: 1em;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #FD853D;
     margin-left: 2em;
     margin-right: 2em;
     padding-bottom: 10px;
@@ -93,7 +94,6 @@
 /* Leadership */
 #leadershipRow {
     background-color: #D9D9D9;
-    /* justify-content: center; */
 }
 #leadershipHeading {
     text-align: center;
@@ -126,8 +126,6 @@
     margin-right: 0;
     border-radius: 50px;
     padding-right: 0;
-    /* margin-left: 12%; */
-
 }
 
 
@@ -144,11 +142,116 @@
     font-size: 20px;
     font-weight: 400;
     min-width: 200px; 
-
 }
 
 
 
+/* Awards */
+#awardsRow {
+    background-color: #2E2179;
+    min-height: 30em;
+    padding-bottom: 1em;
+}
+#awardsHeaderRow {
+   max-width: 200px;
+   max-height: 100px;
+   margin-bottom: 1em;
+}
+#awardsHeader {
+    text-align: center;
+    color: #FD853D;
+    margin-top: 1em;
+    border-bottom: 2px solid #FD853D;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+
+#awardsSquare {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    border-bottom: 5px solid #FD853D;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    border-radius: 50px;
+    padding-right: 0;
+    margin-left: .25em;
+    margin-right: .25em;
+}
+
+
+
+
+/* Creed to our Peeps */
+#creedRow {
+    background-color: #D9D9D9;
+    min-height: 30em;
+    padding-bottom: 1em;
+}
+#creedHeaderRow {
+    max-width: 550px;
+    max-height: 100px;
+    margin-bottom: 2em;
+}
+#creedHeader {
+    text-align: center;
+    color: #2E2179;
+    margin-top: 1em;
+    border-bottom: 2px solid #2E2179;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+#creedSquare1 {
+    background-image: url("images/awardsImage1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;    
+    max-width: 20%;
+    min-width: 20%;
+    height: 600px;
+}
+#creedSquare2 {
+    background-image: url("images/awardsImage2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;    
+    max-width: 350px;
+    min-width: 350px;
+}
+#creedSquare3 {
+    background-image: url("images/awardsImage3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;    
+    max-width: 350px;
+    min-width: 350px;
+}
+
+
+#CS1Header {
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+    padding-top: 12em;
+    
+}
+
+
+
+
+#lcName {   
+    color: #291569;
+    font-size: 35px;
+    font-weight: 500;
+    padding-left: .2em;
+    padding-bottom: .5em;
+}
+#desc {
+    color: #291569;
+    padding-left: 1em;
+    font-size: 20px;
+    font-weight: 400;
+    min-width: 200px; 
+}
 
 
 
